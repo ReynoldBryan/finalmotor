@@ -1,0 +1,37 @@
+h1{
+    color: rgb(230, 33, 33);
+    text-align: center;
+}
+body {
+    font-family: fantasy;
+    background-image: url(./img/468da64c204e391e2af51196d80bc84c.jpg);
+    background-size: cover;   
+}
+.motopic{
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+   padding-left: 250px;
+   padding-bottom: 30px;
+   position: absolute;
+   margin-left: 140px;
+   width: 500px;
+   height: 200px;
+}
+#enter{
+    margin-top: 400px;
+    margin-left: 600px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: chartreuse;
+}
+.btn:hover{
+    color: cyan;
+    background-color: chartreuse;
+    padding: 0px;
+}

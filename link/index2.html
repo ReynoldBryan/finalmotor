@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Motor Bike Color Change Design</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <div class="loginbox" style="position: absolute;">
+          <img src="./img/motorlogo-26.jpeg" class="avatar">
+            <div class="covered">
+            <div>
+              <h1>Motor Bike Color Changer</h1>
+              <img id="motor" src="./img/motor.png">
+              </div>
+            </div>
+            <section>
+            <h4 class="random-color">Generate Random Color</h4>
+            <h4 class="specific-color">Generate Specific Color</h4>
+            </section>
+      
+            <a onclick="generator()"><button class="generates">Generate</button></a>
+        <br>
+        <br>
+        <div>
+               <select class="dropdown-menu" id="colorSelect">
+               <option value="Red">Red</option>
+               <option value="Blue">Blue</option>
+               <option value="Green">Green</option>
+               <option value="Yellow">Yellow</option>
+               <option value="Black">Black</option>
+               <option value="Pink">Pink</option>
+               <option value="Grey">Grey</option>
+         </select>
+        </div>
+        <br>
+        <div class="buttons">
+            <button class="shows" onclick="paint()">Show</button>
+            <Button class="reset" onclick="reset()">Reset</Button>
+        </div>
+     </div>
+
+    <script src="funcs.js"></script>
+  
+</body>
+</html>

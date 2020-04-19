@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(118, 182, 207);
+    background-size: none;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+
+.shows{
+    background-color: cyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:  -1px -1px 2px 0 rgb(209, 192, 159),
+    1px 1px 2px 0 rgb(247, 169, 169);
+    margin-left: -5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.reset{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -1px -1px 2px 0 rgb(209, 192, 159),
+    2px 2px 2px 0 rgb(229, 130, 130);
+    background-color: crimson;
+    margin-left: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.loginbox{
+    width: 650px;
+    height: 750px;
+    background:rgb(110, 29, 29);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 40px;
+    border-radius: 10px;
+
+}
+.btn-primary{
+    margin-left: 700px;
+    position: absolute;
+    margin-top: 530px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:  -1px -1px 5px 0 rgb(209, 192, 159),
+    1px 1px 5px 0 rgb(236, 227, 227);
+    margin-right: 10px;
+    margin-top: 520px;
+    color: yellowgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dropdown-menu{
+    margin-left: 390px;
+    position: absolute;
+    margin-top: 0px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 9px;
+}
+.buttons{
+    margin-left: 375px;
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+#motor{
+    height: 50%;
+    width: 100%;
+}
+.specific-color{
+    margin-left: 350px;
+    margin-top: -42px;
+}
+
+.random-color{
+    margin-left: 50px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.btn-primary:hover
+{
+    color: #eee7d2;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.btn-primary:active{
+    box-shadow: 0 0.15em #c10b33, 0 0.12em .15em rgba(236, 240, 241, .7) inset;
+}
+.shows:hover
+{
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.shows:active{
+    box-shadow: 0 0.15em #c10b33, 0 0.12em .15em rgba(236, 240, 241, .7) inset;
+}
+.reset:hover
+{
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.reset:active{
+    box-shadow: 0 0.15em #c10b33, 0 0.12em .15em rgba(236, 240, 241, .7) inset;
+}
+
+.generates:active{
+    box-shadow: 0 0.15em #c10b33, 0 0.12em .15em rgba(236, 240, 241, .7) inset;
+}
+.generates{
+    margin-left: 80px;
+    margin-top: 30px;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color:black;
+	background: rgb(9, 247, 21);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+	box-shadow: -3px -3px 5px 0 rgb(209, 192, 159),
+    3px 3px 5px 0 rgb(229, 130, 130);
+}
+
+.generates:hover{
+	background: #c7f304;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
